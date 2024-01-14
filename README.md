@@ -1,10 +1,10 @@
 # Buttons
 ## Description
-In this project, you will fill in the blanks for two small projects involving buttons and interactivity on a website! There are two excersizes, and in both of them, you will try to turn on a light bulb by pressing or holding a certain button.
+In this project, you will fill in the blanks for two small projects involving buttons and interactivity on a website! There are two exercizes, and in both of them, you will try to turn on a light bulb by pressing or holding a certain button.
 
 ## Difficulty
-Excersize 1: Easy-Medium
-Excersize 2: Medium-Hard
+Exercize 1: Easy-Medium
+Exercize 2: Medium-Hard
 
 ## Setting up
 
@@ -16,11 +16,11 @@ You will see a page that looks like this:
 
 It is **necessary** to press the fork button in the upper left corner in order to save.
 
-## Excersize 1
+## Exercize 1
 
 Excersize 1 is simple, if you look at your setup on JSFiddle, you'll see a light bulb, you simply want to turn on that light bulb by pressing space.
 
-I have prepared some code here to help. If you copy and paste the code found below into the Javascript block in JS Fiddle, and then fill in the 
+I have prepared some code here to help. If you copy and paste the code found below into the Javascript block in JS Fiddle, and then fill in all of the places where there are "@"s correctly, you will be able to toggle the light bulb on and off by pressing space.
 ```
 // Say we want the light bulb to light up whenever we click "space", to do this, we use something called an "Event Handler." The event handler is not tied to any one object, but the document itself. 
 let lit = false;
@@ -38,3 +38,21 @@ document.addEventListener("@@@@", (e) => { // <-- REPLACE THE "@"s; Hint: What i
   }
 })
 ```
+
+## BEFORE YOU START EXERCISE 2
+
+Please save your work for exercise 1 and save the link somewhere. Your mentor might ask for this link at some point. Once you've saved, click the Fork button, and then you can move on to Exersise 2.
+
+## Exercise 2
+
+Exercise 2 is much harder than Exersise 1. The goal of this exercise is to turn on the light bulb only when you are holding the space button. Unfortunately the way we did the last exercise won't work for this goal.
+
+The reason is as follows, what a browser ends up doing when you hold a key is actually not just trigger the 'keydown' event. Unfortunately, the browser actually "auto-repeats" between twow events:
+1. keydown
+2. keypressed
+
+Since the browser alternates between these two until you lift the key (at which point it triggers the 'keyup' event) <-- ((HINT HINT)), the 'keydown' event will be processed multiple times, alternating our light between on and off.
+
+Your goal is to fix this issue, and make it so that the light bulb **only lights up when you hold space**
+
+Also, you should test any extreme cases, your light bulb shouldn't turn off if you press another button while holding space, for example. 
