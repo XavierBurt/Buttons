@@ -47,12 +47,13 @@ Please save your work for exercise 1 and save the link somewhere. Your mentor mi
 
 Exercise 2 is much harder than Exersise 1. The goal of this exercise is to turn on the light bulb only when you are holding the space button. Unfortunately the way we did the last exercise won't work for this goal.
 
-The reason is as follows, what a browser ends up doing when you hold a key is actually not just trigger the 'keydown' event. Unfortunately, the browser actually "auto-repeats" between twow events:
+The reason is as follows, what a browser ends up doing when you hold a key is actually not just trigger the 'keydown' event. Unfortunately, the browser actually "auto-repeats" between two events:
 1. keydown
 2. keypressed
 
 Since the browser alternates between these two until you lift the key (at which point it triggers the 'keyup' event) <-- ((HINT HINT)), the 'keydown' event will be processed multiple times, alternating our light between on and off.
 
-Your goal is to fix this issue, and make it so that the light bulb **only lights up when you hold space**
+This issue of "auto-repeating" is actually even worse in "GTK" environments, but we shouldn't have to worry about that.
 
-Also, you should test any extreme cases, your light bulb shouldn't turn off if you press another button while holding space, for example. 
+Your goal is to fix this issue, and make it so that the light bulb **only lights up when you hold space**
+You should test any extreme cases, your light bulb shouldn't turn off even if you press another button while holding space.
