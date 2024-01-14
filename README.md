@@ -31,7 +31,7 @@ document.addEventListener("@@@@", (e) => { // <-- REPLACE THE "@"s; Hint: What i
   		document.getElementById("@@@@").src = "https://static.vecteezy.com/system/resources/previews/008/320/990/original/illustration-graphic-of-light-bulbs-are-lit-vector.jpg"; // <--- REPLACE THE @s
       lit = true;
     } else {
-    	document.getElementById("@@@@").src = "https://i.pinimg.com/736x/4a/b9/3f/4ab93f48c8f1708a615cc62ffc944962.jpg"; // <--- REPLACE THE @s; Hint: what is the id of the image?
+    	document.getElementById("@@@@").src = "https://i.pinimg.com/736x/4a/b9/3f/4ab93f48c8f1708a615cc62ffc944962.jpg"; // <--- REPLACE THE @s; Hint: what is the id of the light bulb?
       lit = false;
     }
      //alert(`Key pressed ${keyName}`); // <---- You can use something like this to make a popup if it gets to this location.
