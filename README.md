@@ -21,10 +21,10 @@ It is **necessary** to press the fork button in the upper left corner in order t
 Excersize 1 is simple, if you look at your setup on JSFiddle, you'll see a light bulb, you simply want to turn on that light bulb by pressing space.
 
 I have prepared some code here to help. If you copy and paste the code found below into the Javascript block in JS Fiddle, and then fill in the 
-```diff
+```
 // Say we want the light bulb to light up whenever we click "space", to do this, we use something called an "Event Handler." The event handler is not tied to any one object, but the document itself. 
 let lit = false;
-document.addEventListener("@@@@", (e) => { // <-- FILL IN THE "@"s; Hint: What is the keystroke (keydown, keyup, keyuress) we want to "listen" for?
+document.addEventListener("$$\color{red}____$$", (e) => { // <-- FILL IN THE "@"s; Hint: What is the keystroke (keydown, keyup, keyuress) we want to "listen" for?
 	const keyName = e.key;
   if (keyName == "@@@@") { // <-- FILL IN HERE; Hint: What is the character we're trying to "listen" for?
   	if (lit === false) {
