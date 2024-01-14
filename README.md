@@ -21,7 +21,7 @@ It is **necessary** to press the fork button in the upper left corner in order t
 
 ## Exercize 1
 
-Excersize 1 is simple, if you look at your setup on JSFiddle, you'll see a light bulb, you simply want to turn on that light bulb by pressing space.
+Exercise 1 is simple, if you look at your setup on JSFiddle, you'll see a light bulb, you simply want to turn on that light bulb by pressing space.
 
 I have prepared some code here to help. If you copy and paste the code found below into the Javascript block in JS Fiddle, and then fill in all of the places where there are "@"s correctly, you will be able to toggle the light bulb on and off by pressing space.
 ```
