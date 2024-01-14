@@ -6,6 +6,9 @@ In this project, you will fill in the blanks for two small projects involving bu
 Exercize 1: Easy-Medium
 Exercize 2: Medium-Hard
 
+## Prerequisites
+1. Extremely Basic knowledge of Javascript
+2. Basic knowledge of HTML Tags
 ## Setting up
 
 Please go to the JSFiddle found here:
