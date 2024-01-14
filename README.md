@@ -1,4 +1,4 @@
-# Buttons
+# Interactive Light
 ## Description
 In this project, you will fill in the blanks for two small projects involving buttons and interactivity on a website! There are two exercizes, and in both of them, you will try to turn on a light bulb by pressing or holding a certain button.
 
