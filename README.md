@@ -44,11 +44,11 @@ document.addEventListener("@@@@", (e) => { // <-- REPLACE THE "@"s; Hint: What i
 
 ## BEFORE YOU START EXERCISE 2
 
-Please save your work for exercise 1 and save the link somewhere. Your mentor might ask for this link at some point. Once you've saved, click the Fork button, and then you can move on to Exersise 2.
+Please save your work for exercise 1 and save the link somewhere. Your mentor might ask for this link at some point. Once you've saved, click the Fork button, and then you can move on to Exercise 2.
 
 ## Exercise 2
 
-Exercise 2 is much harder than Exersise 1. The goal of this exercise is to turn on the light bulb only when you are holding the space button. Unfortunately the way we did the last exercise won't work for this goal.
+Exercise 2 is much harder than Exercise 1. The goal of this exercise is to turn on the light bulb only when you are holding the space button. Unfortunately the way we did the last exercise won't work for this goal.
 
 The reason is as follows, what a browser ends up doing when you hold a key is actually not just trigger the 'keydown' event. Unfortunately, the browser actually "auto-repeats" between two events:
 1. keydown
