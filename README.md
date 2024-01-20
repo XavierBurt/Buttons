@@ -3,8 +3,9 @@
 In this project, you will fill in the blanks for two small projects involving buttons and interactivity on a website! There are two exercizes, and in both of them, you will try to turn on a light bulb by pressing or holding a certain button.
 
 ## Difficulty
-Exercize 1: Easy-Medium
-Exercize 2: Medium-Hard
+Exercize 1: Easy
+
+Exercize 2: Intermediate
 
 ## Prerequisites
 1. Extremely Basic knowledge of Javascript
