@@ -20,7 +20,7 @@ You will see a page that looks like this:
 
 It is **necessary** to press the fork button in the upper left corner in order to save.
 
-## Exercize 1
+## Exercise 1
 
 Exercise 1 is simple, if you look at your setup on JSFiddle, you'll see a light bulb, you simply want to turn on that light bulb by pressing space.
 
