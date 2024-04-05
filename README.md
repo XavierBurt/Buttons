@@ -1,11 +1,11 @@
 # Interactive Light
 ## Description
-In this project, you will fill in the blanks for two small projects involving buttons and interactivity on a website! There are two exercizes, and in both of them, you will try to turn on a light bulb by pressing or holding a certain button.
+In this project, you will fill in the blanks for two small projects involving buttons and interactivity on a website! There are two exercises, and in both of them, you will try to turn on a light bulb by pressing or holding a certain button.
 
 ## Difficulty
 Warm Up: Easy
 
-Exercize: Hard
+Exercise: Hard
 
 ## Prerequisites
 1. Basic knowledge of Javascript
@@ -31,7 +31,7 @@ Where you see '4': look in the html code, what is the id of the light bulb?
 
 ## BEFORE YOU START THE EXERCISE
 
-Note that the work from the warm up will help you finish the exercize, you will adapt the code you were given. This will all be done in the javascript file still.
+Note that the work from the warm up will help you finish the exercise, you will adapt the code you were given. This will all be done in the javascript file still.
 
 A list of all of the events can be found here: https://www.w3schools.com/jsref/dom_obj_event.asp
 
