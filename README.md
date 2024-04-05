@@ -3,9 +3,9 @@
 In this project, you will fill in the blanks for two small projects involving buttons and interactivity on a website! There are two exercizes, and in both of them, you will try to turn on a light bulb by pressing or holding a certain button.
 
 ## Difficulty
-Exercize 1: Easy
+Warm Up: Easy
 
-Exercize 2: Intermediate
+Exercize 2: Hard
 
 ## Prerequisites
 1. Extremely Basic knowledge of Javascript
@@ -20,36 +20,27 @@ You will see a page that looks like this:
 
 It is **necessary** to press the fork button in the upper left corner in order to save.
 
-## Exercise 1
+## Warm Up
+Once you open the replit, you will see an HTML file, a CSS file, and a Javascript file. You will not need to edit the HTML or CSS files at all, however you might need to look at HTML.
 
-Exercise 1 is simple, if you look at your setup on JSFiddle, you'll see a light bulb, you simply want to turn on that light bulb by pressing space.
+Step 1: Go to the JavaScript file, You should see some Javascript code already there
+Step 2: Fill in the blanks, you should see comments after some lines saying "<--- fill in" If you do it right, the code should work. 
 
-I have prepared some code here to help. If you copy and paste the code found below into the Javascript block in JS Fiddle, and then fill in all of the places where there are "@"s correctly, you will be able to toggle the light bulb on and off by pressing space.
-```
-// Say we want the light bulb to light up whenever we click "space", to do this, we use something called an "Event Handler." The event handler is not tied to any one object, but the document itself. 
-let lit = false;
-document.addEventListener("@@@@", (e) => { // <-- REPLACE THE "@"s; Hint: What is the keystroke (keydown, keyup, keyuress) we want to "listen" for?
-	const keyName = e.key;
-  if (keyName == "@@@@") { // <-- REPLACE THE "@"s; Hint: What is the character we're trying to "listen" for?
-  	if (lit === false) {
-  		document.getElementById("@@@@").src = "https://static.vecteezy.com/system/resources/previews/008/320/990/original/illustration-graphic-of-light-bulbs-are-lit-vector.jpg"; // <--- REPLACE THE @s
-      lit = true;
-    } else {
-    	document.getElementById("@@@@").src = "https://i.pinimg.com/736x/4a/b9/3f/4ab93f48c8f1708a615cc62ffc944962.jpg"; // <--- REPLACE THE @s; Hint: look in the html code, what is the id of the light bulb?
-      lit = false;
-    }
-     //alert(`Key pressed ${keyName}`); // <---- You can use something like this to make a popup if it gets to this location.
-  }
-})
-```
+The goal is to make a lightbulb light up by pressing space.
 
-## BEFORE YOU START EXERCISE 2
+HINTS:
 
-Please save your work for exercise 1 and save the link somewhere. Your mentor might ask for this link at some point. Once you've saved, click the Fork button, and then you can move on to Exercise 2.
+Where you see '1': What is the keystroke (keydown, keyup, keyuress) we want to "listen" for?
+Where you see '2': What is the character we're trying to "listen" for?
+Where you see '4': look in the html code, what is the id of the light bulb?
 
-## Exercise 2
+## BEFORE YOU START THE EXERCISE
 
-Exercise 2 is much harder than Exercise 1. The goal of this exercise is to turn on the light bulb only when you are holding the space button. Unfortunately the way we did the last exercise won't work for this goal.
+Note that the work from the warm up will help you finish the excersize, you will adapt the code you were given.
+
+## Exercise
+
+The goal of this exercise is to turn on the light bulb only when you are holding the space button. Unfortunately the way we did the last exercise won't work for this goal.
 
 The reason is as follows, what a browser ends up doing when you hold a key is actually not just trigger the 'keydown' event. Unfortunately, the browser actually "auto-repeats" between two events:
 1. keydown
@@ -60,4 +51,7 @@ Since the browser alternates between these two until you lift the key (at which 
 This issue of "auto-repeating" is actually even worse in "GTK" environments, but we shouldn't have to worry about that.
 
 Your goal is to fix this issue, and make it so that the light bulb **only lights up when you hold space**
-You should test any extreme cases, your light bulb shouldn't turn off even if you press another button while holding space.
+
+## STRETCH GOAL
+You should test any extreme cases
+Ex: your light bulb shouldn't turn off even if you press another button while holding space.
