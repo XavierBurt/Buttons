@@ -33,6 +33,15 @@ Where you see '4': look in the html code, what is the id of the light bulb?
 
 Note that the work from the warm up will help you finish the exercize, you will adapt the code you were given. This will all be done in the javascript file still.
 
+A list of all of the events can be found here: https://www.w3schools.com/jsref/dom_obj_event.asp
+
+The ones you should be paying attention to are
+keydown: Triggered when you press a key down
+
+keypressed: Triggered when you press a key
+
+keyup: Triggered when you let go of a key.
+
 ## Exercise
 
 The goal of this exercise is to turn on the light bulb only when you are holding the space button. Unfortunately the way we did the last exercise won't work for this goal.
@@ -46,6 +55,13 @@ Since the browser alternates between these two until you lift the key (at which 
 This issue of "auto-repeating" is actually even worse in "GTK" environments, but we shouldn't have to worry about that.
 
 Your goal is to fix this issue, and make it so that the light bulb **only lights up when you hold space**
+
+to summarize, your basic steps should look like this:
+
+2. We know we want the light to go on when the 'keydown' key is pressed, so we will use the same event listener we used in the warm up
+3. Inside the event listener, create an if statement to check if the light is on, only turn on the light if the light isn't currently on. (You may need to repurpose the if statement from the warm up)
+4. Now we just need to turn the light off when we let go of space, to do that create another event listener outside of the firt one.
+5. inside of that event listener, all we have to do is make sure to both turn off the light and make sure we update the variable keeping track of the state of the light.
 
 ## STRETCH GOAL
 You should test any extreme cases
