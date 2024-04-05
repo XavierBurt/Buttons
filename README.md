@@ -57,7 +57,7 @@ This issue of "auto-repeating" is actually even worse in "GTK" environments, but
 
 Your goal is to fix this issue, and make it so that the light bulb **only lights up when you hold space**
 
-to summarize, your basic steps should look like this:
+### Basic Procedure
 
 1. We know we want the light to go on when the 'keydown' key is pressed, so we will use the same event listener we used in the warm up
    
@@ -67,6 +67,8 @@ to summarize, your basic steps should look like this:
    
 4. inside of that event listener, all we have to do is make sure to both turn off the light and make sure we update the variable keeping track of the state of the light.
 
+If it doesn't work after making these changes, make sure all of the if statements are in the right place, you can ask your mentors for help if you need.
+Good luck :)
 ## STRETCH GOAL
 You should test any extreme cases
 Ex: your light bulb shouldn't turn off even if you press another button while holding space.
