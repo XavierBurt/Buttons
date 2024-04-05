@@ -5,15 +5,18 @@ In this project, you will fill in the blanks for two small projects involving bu
 ## Difficulty
 Warm Up: Easy
 
-Exercize 2: Hard
+Exercize: Hard
 
 ## Prerequisites
 1. Extremely Basic knowledge of Javascript
 2. Basic knowledge of HTML Tags
+
 ## Setting up
 open the replit, you will see an HTML file, a CSS file, and a Javascript file. You will not need to edit the HTML or CSS files at all, however you might need to look at HTML.
+
 ## Warm Up
 Step 1: Go to the JavaScript file, You should see some Javascript code already there
+
 Step 2: Fill in the blanks, you should see comments after some lines saying "<--- fill in" If you do it right, the code should work. 
 
 The goal is to make a lightbulb light up by pressing space.
@@ -28,7 +31,7 @@ Where you see '4': look in the html code, what is the id of the light bulb?
 
 ## BEFORE YOU START THE EXERCISE
 
-Note that the work from the warm up will help you finish the excersize, you will adapt the code you were given.
+Note that the work from the warm up will help you finish the exercize, you will adapt the code you were given. This will all be done in the javascript file still.
 
 ## Exercise
 
