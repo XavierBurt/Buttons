@@ -8,7 +8,7 @@ Warm Up: Easy
 Exercize: Hard
 
 ## Prerequisites
-1. Extremely Basic knowledge of Javascript
+1. Basic knowledge of Javascript
 2. Basic knowledge of HTML Tags
 
 ## Setting up
