@@ -11,18 +11,8 @@ Exercize 2: Hard
 1. Extremely Basic knowledge of Javascript
 2. Basic knowledge of HTML Tags
 ## Setting up
-
-Please go to the JSFiddle found here:
-https://jsfiddle.net/XavierBurt/qs5e983d/
-
-You will see a page that looks like this: 
-![image](https://github.com/XavierBurt/Buttons/assets/97270148/ad46f8ea-e9ad-442e-a270-69fc0428080f)
-
-It is **necessary** to press the fork button in the upper left corner in order to save.
-
+open the replit, you will see an HTML file, a CSS file, and a Javascript file. You will not need to edit the HTML or CSS files at all, however you might need to look at HTML.
 ## Warm Up
-Once you open the replit, you will see an HTML file, a CSS file, and a Javascript file. You will not need to edit the HTML or CSS files at all, however you might need to look at HTML.
-
 Step 1: Go to the JavaScript file, You should see some Javascript code already there
 Step 2: Fill in the blanks, you should see comments after some lines saying "<--- fill in" If you do it right, the code should work. 
 
@@ -31,7 +21,9 @@ The goal is to make a lightbulb light up by pressing space.
 HINTS:
 
 Where you see '1': What is the keystroke (keydown, keyup, keyuress) we want to "listen" for?
+
 Where you see '2': What is the character we're trying to "listen" for?
+
 Where you see '4': look in the html code, what is the id of the light bulb?
 
 ## BEFORE YOU START THE EXERCISE
