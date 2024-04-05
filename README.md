@@ -12,7 +12,7 @@ Exercise: Hard
 2. Basic knowledge of HTML Tags
 
 ## Setting up
-open the replit, you will see an HTML file, a CSS file, and a Javascript file. You will not need to edit the HTML or CSS files at all, however you might need to look at HTML.
+Open the replit, you will see an HTML file, a CSS file, and a Javascript file. You will not need to edit the HTML or CSS files at all, however you might need to look at HTML.
 
 ## Warm Up
 Step 1: Go to the JavaScript file, You should see some Javascript code already there
