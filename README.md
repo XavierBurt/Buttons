@@ -60,7 +60,7 @@ to summarize, your basic steps should look like this:
 
 1. We know we want the light to go on when the 'keydown' key is pressed, so we will use the same event listener we used in the warm up
    
-2. Inside the event listener, create an if statement to check if the light is on, only turn on the light if the light isn't currently on. (You may need to repurpose the if statement from the warm up)
+2. Inside the event listener, create an if statement to check if the light is on, only turn on the light if the light isn't currently on. (This should be a very simple change in the existing if statement.)
    
 3. Now we just need to turn the light off when we let go of space, to do that create another event listener outside of the firt one.
    
