@@ -58,10 +58,10 @@ Your goal is to fix this issue, and make it so that the light bulb **only lights
 
 to summarize, your basic steps should look like this:
 
-2. We know we want the light to go on when the 'keydown' key is pressed, so we will use the same event listener we used in the warm up
-3. Inside the event listener, create an if statement to check if the light is on, only turn on the light if the light isn't currently on. (You may need to repurpose the if statement from the warm up)
-4. Now we just need to turn the light off when we let go of space, to do that create another event listener outside of the firt one.
-5. inside of that event listener, all we have to do is make sure to both turn off the light and make sure we update the variable keeping track of the state of the light.
+1. We know we want the light to go on when the 'keydown' key is pressed, so we will use the same event listener we used in the warm up
+2. Inside the event listener, create an if statement to check if the light is on, only turn on the light if the light isn't currently on. (You may need to repurpose the if statement from the warm up)
+3. Now we just need to turn the light off when we let go of space, to do that create another event listener outside of the firt one.
+4. inside of that event listener, all we have to do is make sure to both turn off the light and make sure we update the variable keeping track of the state of the light.
 
 ## STRETCH GOAL
 You should test any extreme cases
