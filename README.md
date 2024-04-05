@@ -36,6 +36,7 @@ Note that the work from the warm up will help you finish the exercize, you will 
 A list of all of the events can be found here: https://www.w3schools.com/jsref/dom_obj_event.asp
 
 The ones you should be paying attention to are
+
 keydown: Triggered when you press a key down
 
 keypressed: Triggered when you press a key
